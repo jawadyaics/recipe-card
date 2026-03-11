@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0; 
+    font-size: 28px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #423f3f;
+}
+
+#main-title {
+    font-size: 2em;
+    padding: 10px;
+    background-color:beige;
+    margin: 0 auto;
+    text-align: center;
+    border: black solid 2px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+h1,h2{
+    padding: 10px;  
+    text-align: center;
+
+}
+
+
+.image-card {
+    display: block;
+    width: 800px;
+    border: #423f3f solid 2px;
+    border-radius: 10px;
+    margin: auto;
+}
+.recipe-card {
+    display: block;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: beige;
+    border: #423f3f solid 2px;
+    border-radius: 10px;
+}
+
+.recipe-card ul, .recipe-card ol {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 800px;
+    margin:0px auto 20px auto;
+    border-radius: 10px;
+
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    background-color:beige;
+    width: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border: #423f3f solid 2px;
+    border-radius: 10px;
+
+}
+
+.button:link , .button:visited {
+    background-color: beige;
+}
+
+.button:hover , .button:visited:hover {
+    background-color: rgb(238, 238, 187);
+    text-decoration: underline;
+}
+
+.button:active, .button:visited:active {
+    background-color: beige;
+}
